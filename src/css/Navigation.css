@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  background-color: aquamarine;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgb(202, 255, 237);
+}

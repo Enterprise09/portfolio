@@ -1,0 +1,62 @@
+.intro_container {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.about_container {
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.about_box {
+  display: flex;
+
+  h2 {
+    flex: 1;
+  }
+}
+
+.skills_container {
+  padding: 20px;
+  text-align: center;
+  .skills_box {
+    display: flex;
+
+    div {
+      flex: 1;
+    }
+  }
+}
+
+.projects_container {
+  padding: 20px;
+  text-align: center;
+
+  img {
+    margin: 5px;
+    border: 1px solid salmon;
+  }
+}
+
+.archive_container {
+  padding: 20px;
+  text-align: center;
+
+  .archive_box {
+    img {
+      width: 39%;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  border: 1px solid darkcyan;
+
+  p {
+    text-align: center;
+  }
+}
