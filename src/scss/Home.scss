@@ -22,18 +22,16 @@
 .skills_container {
   padding: 20px;
   text-align: center;
+  background-color: salmon;
   .skills_box {
-    display: flex;
-
-    div {
-      flex: 1;
-    }
+    text-align: center;
   }
 }
 
 .projects_container {
   padding: 20px;
   text-align: center;
+  background-color: deepskyblue;
 
   img {
     margin: 5px;
@@ -44,6 +42,11 @@
 .archive_container {
   padding: 20px;
   text-align: center;
+  background-color: rgb(66, 66, 66);
+
+  h1 {
+    color: white;
+  }
 
   .archive_box {
     img {

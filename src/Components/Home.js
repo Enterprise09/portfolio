@@ -6,6 +6,15 @@ import movie_app from "../img/movie_app_intro.png";
 import neflix_clone from "../img/netflix_clone_intro.png";
 import github from "../img/github.png";
 import instargram from "../img/instargram.png";
+import front_skills from "../img/front_skills.png";
+import backend_skills from "../img/backend_skills.png";
+import database_skills from "../img/database_skills.png";
+import vcs_skills from "../img/vcs_skills.png";
+import mobile_skills from "../img/mobile_skills.png";
+import winform_skills from "../img/winform_skills.png";
+import devops_skills from "../img/devops_skills.png";
+import comm_skills from "../img/comm_skills.png";
+import main_skills from "../img/main_skills.png";
 
 const Home = () => {
   return (
@@ -38,46 +47,7 @@ const Home = () => {
         <div className="skills_container">
           <h1>SKILLS</h1>
           <div className="skills_box">
-            <div className="skills_backend_box">
-              <p>
-                Java | Spring | Spring mvc
-                <br />
-                Node.js | Express | NPM | NPX
-              </p>
-            </div>
-            <div className="skills_frontend_box">
-              <p>
-                HTML | CSS | SCSS | JS | ES6
-                <br />
-                React.js | Axios | Router | Hooks
-              </p>
-            </div>
-            <div className="skills_mobile_box">
-              <p>
-                Java | Android | Native
-                <br />
-                React-Native | EXPO | Build
-                <br />
-                Dart | Flutter | Cross-platform
-              </p>
-            </div>
-            <div className="skills_winform_box">
-              <p>
-                MFC | C++ | SDI | MDI
-                <br />
-                C# | .NET 5.0 | Winform
-              </p>
-            </div>
-            <div className="skills_database">
-              <p>
-                Oracle | 11g release
-                <br />
-                SQL | MySql | SQLITE
-                <br />
-                Firebase | Firebase-Admin SDK
-                <br />
-              </p>
-            </div>
+            <img src={main_skills} />
           </div>
         </div>
         <hr />
