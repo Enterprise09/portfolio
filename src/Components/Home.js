@@ -4,7 +4,6 @@ import endline from "../img/endline_intro.png";
 import ewitter from "../img/ewitter_intro.png";
 import movie_app from "../img/movie_app_intro.png";
 import neflix_clone from "../img/netflix_clone_intro.png";
-import main_skills from "../img/main_skills.png";
 import comm_skills from "../img/comm_skills.png";
 import database_skills from "../img/database_skills.png";
 import mobile_skills from "../img/mobile_skills.png";
@@ -20,6 +19,7 @@ import phone from "../img/phone.png";
 import email from "../img/email.png";
 import college from "../img/college.png";
 import location from "../img/location.png";
+import portfolio from "../img/portfolio.png";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPen } from "@fortawesome/free-solid-svg-icons";
@@ -181,10 +181,28 @@ const Home = () => {
       <div className="projects_container">
         <h1>PROJECTS</h1>
         <div className="projects_box">
-          <img src={endline} />
-          <img src={ewitter} />
-          <img src={neflix_clone} />
-          <img src={movie_app} />
+          <a
+            href="https://github.com/Enterprise09/EndLine/blob/master/README.md"
+            target="_blank"
+          >
+            <img src={endline} />
+          </a>
+
+          <a href="https://enterprise09.github.io/ewitter/#/" target="_blank">
+            <img src={ewitter} />
+          </a>
+          <a
+            href="https://github.com/Enterprise09/Flutter_Study/tree/main/netflix_clone_project"
+            target="_blank"
+          >
+            <img src={neflix_clone} />
+          </a>
+          <a href="https://enterprise09.github.io/movie_app/#/" target="_blank">
+            <img src={movie_app} />
+          </a>
+          <a href="#intro">
+            <img src={portfolio} />
+          </a>
         </div>
       </div>
     </div>

@@ -147,9 +147,13 @@
     color: white;
   }
 
-  img {
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px gray;
+  .projects_box {
+    display: flex;
+    flex-direction: column;
+    img {
+      margin: 5px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 3px gray;
+    }
   }
 }
