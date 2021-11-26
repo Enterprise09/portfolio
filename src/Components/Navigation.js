@@ -1,14 +1,33 @@
-import React from "react";
-import "../css/Navigation.css";
+import React, { useEffect, useState } from "react";
+import "../scss/Navigation.scss";
 
 const Navigation = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const onScroll = () => {
+    setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+  });
+
   return (
-    <nav>
+    <nav className={scrollPosition < 10 ? "original_nav" : "change_nav"}>
       <ul>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Archive</li>
+        <a href="#intro" className="logo">
+          <li className="logo">Enterprise's Portfolio</li>
+        </a>
+        <a href="#about">
+          <li>About</li>
+        </a>
+        <a href="#skills">
+          <li>Skills</li>
+        </a>
+        <a href="#archive">
+          <li>Archive</li>
+        </a>
+        <a href="#projects">
+          <li>Projects</li>
+        </a>
       </ul>
     </nav>
   );
