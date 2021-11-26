@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.435b9cef.chunk.css",
+    "main.js": "/portfolio/static/js/main.2b9a9d4e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2b9a9d4e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
+    "static/js/2.ab0f0a7b.chunk.js": "/portfolio/static/js/2.ab0f0a7b.chunk.js",
+    "static/js/2.ab0f0a7b.chunk.js.map": "/portfolio/static/js/2.ab0f0a7b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.435b9cef.chunk.css.map": "/portfolio/static/css/main.435b9cef.chunk.css.map",
+    "static/js/2.ab0f0a7b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ab0f0a7b.chunk.js.LICENSE.txt",
+    "static/media/backend_skills.50225243.png": "/portfolio/static/media/backend_skills.50225243.png",
+    "static/media/comm_skills.5f925a88.png": "/portfolio/static/media/comm_skills.5f925a88.png",
+    "static/media/database_skills.cf1cda74.png": "/portfolio/static/media/database_skills.cf1cda74.png",
+    "static/media/devops_skills.a572f4e7.png": "/portfolio/static/media/devops_skills.a572f4e7.png",
+    "static/media/endline_intro.19c0a551.png": "/portfolio/static/media/endline_intro.19c0a551.png",
+    "static/media/ewitter_intro.4f259c24.png": "/portfolio/static/media/ewitter_intro.4f259c24.png",
+    "static/media/frontend_skills.6f1eb72a.png": "/portfolio/static/media/frontend_skills.6f1eb72a.png",
+    "static/media/Home.scss": "/portfolio/static/media/intro_logo.aa9305f4.png",
+    "static/media/main_skills.329d9d93.png": "/portfolio/static/media/main_skills.329d9d93.png",
+    "static/media/mobile_skills.bc0f913b.png": "/portfolio/static/media/mobile_skills.bc0f913b.png",
+    "static/media/movie_app_intro.7b8ef237.png": "/portfolio/static/media/movie_app_intro.7b8ef237.png",
+    "static/media/netflix_clone_intro.81257b95.png": "/portfolio/static/media/netflix_clone_intro.81257b95.png",
+    "static/media/vcs_skills.fb28727f.png": "/portfolio/static/media/vcs_skills.fb28727f.png",
+    "static/media/winform_skills.ab270d2b.png": "/portfolio/static/media/winform_skills.ab270d2b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bf68c44.js",
+    "static/js/2.ab0f0a7b.chunk.js",
+    "static/css/main.435b9cef.chunk.css",
+    "static/js/main.2b9a9d4e.chunk.js"
+  ]
+}
