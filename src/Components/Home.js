@@ -37,7 +37,7 @@ const Home = () => {
         <h1>- Tea Ho Kim -</h1>
         <h3>Developer Portfolio</h3>
         {/* <img src={indicator} /> */}
-        <p>
+        <p className={isMobile ? "mobile_p" : "original_p"}>
           안녕하세요! 개발의 <span>다양함</span>을 좋아하는 개발자입니다.
           <br />
           <span>다양한</span> 언어 기반의 모바일 어플 개발을 좋아하고,

@@ -9,10 +9,25 @@
   flex-direction: column;
   align-items: center;
 
-  p {
+  .original_p {
     width: 420px;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.589);
+
+    span {
+      color: red;
+    }
+  }
+
+  .mobile_p {
+    width: 410px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 17px;
     font-weight: bold;
     color: black;
