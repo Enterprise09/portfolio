@@ -81,12 +81,15 @@
 
 .mobile_nav {
   position: fixed;
-  background-color: white;
+  background-color: rgba(240, 248, 255, 0.925);
+  // background-color: rgba(255, 255, 255, 0.925);
+  width: 100%;
 
   .mobile_nav_box {
-    padding: 25px;
-    padding-bottom: 0px;
+    padding: 17px;
+    padding-right: 10px;
     list-style: none;
+    vertical-align: middle;
 
     .intro_logo {
       font-weight: bolder;
@@ -94,11 +97,13 @@
       display: inline-block;
       text-decoration: none;
       color: black;
+      vertical-align: middle;
     }
 
     .mobile_nav_toggle {
       cursor: pointer;
-      margin-left: 54px;
+      float: right;
+      vertical-align: middle;
     }
 
     ul {

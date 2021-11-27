@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../scss/Home.scss";
 import endline from "../img/endline_intro.png";
 import ewitter from "../img/ewitter_intro.png";
@@ -23,8 +23,13 @@ import portfolio from "../img/portfolio.png";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPen } from "@fortawesome/free-solid-svg-icons";
+import { useMediaQuery } from "react-responsive";
 
 const Home = () => {
+  const isMobile = useMediaQuery({
+    query: "(max-width: 1180px)",
+  });
+
   return (
     <div className="home_container">
       <a id="intro"></a>
@@ -42,8 +47,9 @@ const Home = () => {
           <br />
           <span>React</span>를 이용한 웹개발 또한 즐겨합니다.
           <br />
-          오류를 해결하여 신호등의 <span>빨간불</span>이 사라졌을 때 기분을
-          좋아합니다!
+          오류를 해결하여 신호등의 <span>빨간불</span>이
+          <br />
+          사라졌을 때 기분을 좋아합니다!
         </p>
       </div>
       <a id="about">
@@ -99,7 +105,9 @@ const Home = () => {
         </div>
         <a id="skills">skills</a>
       </div>
-      <div className="skills_container">
+      <div
+        className={isMobile ? "mobile_skills_container" : "skills_container"}
+      >
         <h1>SKILLS</h1>
         <div className="skills_box">
           <div className="skills_content_box">
@@ -145,7 +153,9 @@ const Home = () => {
         </div>
         <a id="archive">archive</a>
       </div>
-      <div className="archive_container">
+      <div
+        className={isMobile ? "mobile_archive_container" : "archive_container"}
+      >
         <h1>ARCHIVE</h1>
         <div className="archive_box">
           <div className="archive_content_box">
@@ -178,7 +188,11 @@ const Home = () => {
         <a id="projects">projects</a>
       </div>
       {/* end of skills_container */}
-      <div className="projects_container">
+      <div
+        className={
+          isMobile ? "mobile_projects_container" : "projects_container"
+        }
+      >
         <h1>PROJECTS</h1>
         <div className="projects_box">
           <a

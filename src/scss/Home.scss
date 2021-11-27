@@ -3,10 +3,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 150px;
+  padding-bottom: 150px;
+  padding-top: 75px;
 
   p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     color: black;
 
@@ -101,6 +102,39 @@
   }
 }
 
+.mobile_skills_container {
+  padding: 20px;
+  text-align: center;
+  background-color: salmon;
+
+  #archive {
+    visibility: hidden;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  .skills_box {
+    text-align: center;
+    width: 100%;
+
+    .skills_content_box {
+      display: inline-block;
+      vertical-align: top;
+
+      .skills_title {
+        background-color: white;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 10px;
+        box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.61);
+      }
+    }
+  }
+}
+
 .archive_container {
   padding: 20px;
   text-align: center;
@@ -137,6 +171,42 @@
   }
 }
 
+.mobile_archive_container {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(66, 66, 66);
+
+  #projects {
+    visibility: hidden;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  .archive_box {
+    .archive_content_box {
+      background-color: white;
+      border-radius: 10px;
+      padding-top: 10px;
+      margin-bottom: 30px;
+      width: 100%;
+      height: 300px;
+      display: inline-block;
+      vertical-align: middle;
+
+      a {
+        display: block;
+        margin-top: 10px;
+      }
+
+      ul {
+        text-align: left;
+      }
+    }
+  }
+}
+
 .projects_container {
   padding: 20px;
   text-align: center;
@@ -147,12 +217,36 @@
   }
 
   .projects_box {
-    display: flex;
-    flex-direction: column;
-    img {
-      margin: 5px;
-      border-radius: 10px;
-      box-shadow: 3px 3px 3px gray;
+    text-align: center;
+    a {
+      display: block;
+      img {
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px gray;
+      }
+    }
+  }
+}
+
+.mobile_projects_container {
+  padding: 20px;
+  text-align: center;
+  background-color: deepskyblue;
+
+  h1 {
+    color: white;
+  }
+
+  .projects_box {
+    text-align: center;
+    a {
+      display: block;
+      img {
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px gray;
+      }
     }
   }
 }
