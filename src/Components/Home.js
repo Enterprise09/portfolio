@@ -34,12 +34,9 @@ const Home = () => {
     <div className="home_container">
       <a id="intro"></a>
       <div className="intro_container">
-        <h1>
-          - 김태호 -
-          <br />
-          개발자 포트폴리오
-        </h1>
-        <img src={indicator} />
+        <h1>- Tea Ho Kim -</h1>
+        <h3>Developer Portfolio</h3>
+        {/* <img src={indicator} /> */}
         <p>
           안녕하세요! 개발의 <span>다양함</span>을 좋아하는 개발자입니다.
           <br />
