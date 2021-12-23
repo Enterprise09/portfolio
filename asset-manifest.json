@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6daa84d9.chunk.css",
-    "main.js": "/portfolio/static/js/main.3b399322.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3b399322.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d84e5521.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d84e5521.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
     "static/js/2.e4116f86.chunk.js": "/portfolio/static/js/2.e4116f86.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/frontend_skills.6f1eb72a.png": "/portfolio/static/media/frontend_skills.6f1eb72a.png",
     "static/media/Home.scss": "/portfolio/static/media/intro_logo.7d9505d0.png",
     "static/media/mobile_skills.bc0f913b.png": "/portfolio/static/media/mobile_skills.bc0f913b.png",
-    "static/media/movie_app_intro.7b8ef237.png": "/portfolio/static/media/movie_app_intro.7b8ef237.png",
+    "static/media/movie_app_intro.22854482.png": "/portfolio/static/media/movie_app_intro.22854482.png",
     "static/media/netflix_clone_intro.81257b95.png": "/portfolio/static/media/netflix_clone_intro.81257b95.png",
     "static/media/portfolio.752f00b7.png": "/portfolio/static/media/portfolio.752f00b7.png",
     "static/media/vcs_skills.fb28727f.png": "/portfolio/static/media/vcs_skills.fb28727f.png",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.0bf68c44.js",
     "static/js/2.e4116f86.chunk.js",
     "static/css/main.6daa84d9.chunk.css",
-    "static/js/main.3b399322.chunk.js"
+    "static/js/main.d84e5521.chunk.js"
   ]
 }
