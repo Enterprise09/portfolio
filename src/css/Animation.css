@@ -1,0 +1,11 @@
+.min_width {
+  width: 0px;
+}
+
+.min_opacity {
+  opacity: 0;
+}
+
+.max_opacity {
+  opacity: 1;
+}

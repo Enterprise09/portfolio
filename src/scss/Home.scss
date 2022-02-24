@@ -26,13 +26,19 @@
       display: inline-block;
       vertical-align: middle;
 
+      transition: all 3s;
+
       margin-left: 40px;
     }
   }
 
-  p {
-    font-family: "배달의민족 주아";
-    font-size: 27px;
+  .home_text_block {
+    transition-delay: 2s;
+    transition-duration: 1s;
+    p {
+      font-family: "배달의민족 주아";
+      font-size: 27px;
+    }
   }
 
   .home_ambitious_box {
@@ -41,6 +47,9 @@
       font-family: "Black Han Sans";
       font-size: 32px;
       vertical-align: middle;
+
+      transition-delay: 3.5s;
+      transition-duration: 2s;
     }
 
     .home_ambitious_dash {
@@ -50,7 +59,15 @@
       display: inline-block;
       vertical-align: middle;
 
+      transition: all 3s;
+
       margin-left: 50px;
     }
   }
+}
+
+.dash_enter {
+  width: 0px;
+  border: 2px solid #48a5ff;
+  border-radius: 3px;
 }
