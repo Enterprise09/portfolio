@@ -1,0 +1,56 @@
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid red;
+  height: 90vh;
+
+  .home_title_box {
+    position: relative;
+    left: -50px;
+    margin-bottom: 25px;
+
+    .home_title {
+      font-family: "Black Han Sans";
+      font-size: 35px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .home_title_dash {
+      border: 2px solid #48a5ff;
+      border-radius: 3px;
+      width: 930px;
+      display: inline-block;
+      vertical-align: middle;
+
+      margin-left: 40px;
+    }
+  }
+
+  p {
+    font-family: "배달의민족 주아";
+    font-size: 27px;
+  }
+
+  .home_ambitious_box {
+    margin-top: 63px;
+    .home_ambitious {
+      font-family: "Black Han Sans";
+      font-size: 32px;
+      vertical-align: middle;
+    }
+
+    .home_ambitious_dash {
+      border: 2px solid #48a5ff;
+      border-radius: 3px;
+      width: 433px;
+      display: inline-block;
+      vertical-align: middle;
+
+      margin-left: 50px;
+    }
+  }
+}
