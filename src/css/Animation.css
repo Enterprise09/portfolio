@@ -9,3 +9,9 @@
 .max_opacity {
   opacity: 1;
 }
+
+.dash_enter {
+  width: 0px;
+  border: 2px solid #48a5ff;
+  border-radius: 3px;
+}
