@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Navigation from "./Components/Navigation/Navigation";
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Skills />
       <Project />
+      <Contact />
       <Footer />
     </>
   );
