@@ -107,6 +107,16 @@ a:hover {
   color: var(--color-bg);
 }
 
+.btn_disable {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-bg);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: default;
+  border: 1px solid var(--color-primary);
+}
+
 img {
   display: block;
   width: 100%;
