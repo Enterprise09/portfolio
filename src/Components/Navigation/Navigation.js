@@ -28,10 +28,10 @@ function Navigation() {
         <FaUser />
       </a>
       <a
-        href="#skills"
-        className={activeNav === "#skills" ? "active" : ""}
+        href="#experience"
+        className={activeNav === "#experience" ? "active" : ""}
         onClick={() => {
-          setActiveNav("#skills");
+          setActiveNav("#experience");
         }}
       >
         <BsStack />
