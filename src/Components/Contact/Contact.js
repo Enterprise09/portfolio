@@ -33,7 +33,7 @@ function Contact() {
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
-        <div className="contact__options">
+        <div className="contact__options" data-aos="fade-right">
           <article className="contact__option">
             <MdOutlineMailOutline className="contact__option-icon" />
             <h4>Email</h4>

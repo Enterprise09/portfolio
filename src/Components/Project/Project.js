@@ -42,7 +42,7 @@ function Project() {
       <h5>What I Offer</h5>
       <h2>Service</h2>
 
-      <div className="container project__container">
+      <div className="container project__container" data-aos="fade-left">
         {data.map((item, index) => (
           <article className="project" key={index}>
             <div className="project__head">

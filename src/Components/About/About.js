@@ -18,7 +18,7 @@ function About() {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
+          <div className="about__cards" data-aos="fade-right">
             <article className="about__card">
               <FaAward className="about_icon" />
               <h5>Skills</h5>
