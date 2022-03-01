@@ -33,7 +33,7 @@
 .contact__option a {
   margin-top: 0.7rem;
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 /* Form */
@@ -52,6 +52,8 @@ textarea {
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
+  /* font-size: 1rem; */
+  font-family: "배달의민족 주아";
 }
 
 @media screen and (max-width: 1024px) {
