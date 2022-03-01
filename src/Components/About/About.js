@@ -39,10 +39,23 @@ function About() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eos
-            voluptatem eius dolorem maiores nihil ducimus at rem ullam
-            reprehenderit quidem quia deserunt, molestiae, eligendi amet
-            repellat molestias quoa totam.
+            Hello!
+            <br />
+            I'm fullstack developer Teaho Kim
+            <br />
+            Adapting quickly to a new enviroment.
+            <br />
+            It's really important for programmers to get used to something
+            quickly.
+            <br />
+            new IDE,
+            <br />
+            new Language,
+            <br />
+            new Platform
+            <br />
+            And you have to adapt quickly to new Ideas.
+            <br />I want to become a developer who codes for the future.
           </p>
 
           <a href="#contact" className="btn btn-primary">

@@ -57,17 +57,18 @@
 }
 
 .about__card h5 {
-  font-size: 0.95rem;
+  font-size: 1.3rem;
 }
 
 .about__card small {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: var(--color-light);
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  font-size: 1.2rem;
 }
 
 /* Media Queries (Medium Devices) */
@@ -105,5 +106,6 @@
 
   .about__content p {
     margin: 1.5rem 0;
+    text-align: left;
   }
 }
