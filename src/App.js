@@ -9,8 +9,16 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Project from "./Components/Project/Project";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useMediaQuery } from "react-responsive";
 
 function App() {
+  const md = useMediaQuery({
+    query: "(max-width: 1024px)",
+  });
+  const sd = useMediaQuery({
+    query: "(max-width: 600px)",
+  });
+  const deviceSize = md || sd;
   useEffect(() => {
     Aos.init({
       duration: 2000,
@@ -22,7 +30,7 @@ function App() {
       <Navigation />
       <About />
       <Experience />
-      <Project />
+      <Project deviceSize={deviceSize} />
       <Portfolio />
       <Contact />
       <Footer />

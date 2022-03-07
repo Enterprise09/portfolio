@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineProject } from "react-icons/ai";
-import { FaAward, FaSchool, FaUser } from "react-icons/fa";
+import { FaAward, FaSchool } from "react-icons/fa";
 import ME from "../../assets/images/me.jpg";
 import "./About.css";
 
