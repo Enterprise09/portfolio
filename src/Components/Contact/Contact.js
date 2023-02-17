@@ -18,11 +18,13 @@ function Contact() {
         "Qp9tlvPoW4IuWgIkJ"
       )
       .then(
-        (result) => {
+        async (result) => {
           console.log(result.text);
+          await alert("Thank you for your interest!");
         },
-        (error) => {
+        async (error) => {
           console.log(error.text);
+          await alert("occured to error at send mail");
         }
       );
     e.target.reset();
